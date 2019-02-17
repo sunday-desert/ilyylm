@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/ilyylm/static/media/Comic-Sans-MS.19a8e4fe.ttf"
   },
   {
-    "revision": "60d377678dd27233551da8172a92bf9a",
+    "revision": "114a3dada40205d78fa87a3a0a0e24c1",
     "url": "/ilyylm/index.html"
   }
 ];
