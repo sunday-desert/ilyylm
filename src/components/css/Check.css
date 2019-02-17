@@ -1,0 +1,96 @@
+.check {
+  margin-top: 0;
+  padding-top: 20vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-size: 1.5vw;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.check .left {
+  width: 30vw;
+}
+
+.check .right {
+  width: 40vw;
+  padding-left: 5vw;
+}
+
+.check img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .check {
+    font-size: 2vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 18vh;
+  }
+
+  .check .left {
+    width: 100vw;
+  }
+
+  .check .left img {
+    width: 30%;
+  }
+
+  .check .right {
+    padding-left: 0;
+    width: 70vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .check {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .check .left {
+    width: 60vw;
+  }
+
+  .check .left img {
+    width: 100%;
+  }
+
+  .check .right {
+    width: 90vw;
+  }
+}
+
+.msg {
+  border: none;
+  color: #000;
+  width: 94%;
+  letter-spacing: 1px;
+  font-size: 2vw;
+  font-family: 'Comic Sans MS', 'Comic Sans', monospace;
+  text-align: center;
+  display: block;
+  margin: 25px 0;
+  padding: 15px;
+  background-color: mistyrose;
+}
+
+@media only screen and (min-width: 992px) {
+  .msg {
+    font-size: large;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .msg {
+    font-size: small;
+  }
+}
+
+#punchline {
+  font-size: 25px;
+}

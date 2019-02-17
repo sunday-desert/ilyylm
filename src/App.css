@@ -1,33 +1,67 @@
-.App {
+section {
+  padding: 0 25px;
+  margin-top: 20vh;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+@media only screen and (max-width: 767px) {
+  section {
+    padding-bottom: 25vw;
+  }
+
+  section.start,
+  section.check {
+    padding-bottom: 0;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section.start {
+  padding: 0;
+  margin-top: 0;
+  height: 95vh;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+section.start img {
+  width: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 992px) {
+  section.start img {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 767px) {
+  section.start {
+    height: 85vh;
   }
+  section.start img {
+    width: 100%;
+  }
+}
+
+#sundes {
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#sundes a {
+  text-decoration: none;
+  color: powderblue;
+}
+
+#sundes a:hover {
+  font-style: normal;
+}
+
+section.start + #sundes {
+  display: none;
 }

@@ -1,0 +1,85 @@
+h3 {
+  font-size: 22px;
+  color: tomato;
+}
+
+@media only screen and (max-width: 767px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+
+.pick {
+  margin-top: 0;
+  padding-top: 22vh;
+}
+
+.pick article {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 2vh;
+}
+
+.pick article ul {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 80vw;
+}
+
+.pick article li {
+  text-align: center;
+  width: 33%;
+  list-style-type: none;
+}
+
+.pick article li img {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .pick {
+    padding-top: 30vh;
+  }
+
+  .pick article li img {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .pick {
+    padding-top: 20vh;
+  }
+
+  .pick article ul {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .pick article li {
+    width: 100%;
+  }
+}
+
+.pick article ul li img {
+  -webkit-transition: 0.2s opacity ease-in-out;
+  -o-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+
+.pick article ul:hover li img {
+  opacity: 0.4;
+}
+
+.pick article ul:hover li:hover img {
+  opacity: 1;
+}
