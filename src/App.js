@@ -22,7 +22,7 @@ class App extends Component {
           <Route exact path="/luv/:note" component={Enjoy} />
           <Route component={Nah} />
         </Switch>
-        <div id="sundes"><a href="http://sundaydesert.com/" target="_blank" rel="noopener noreferrer">♡</a></div>
+        <div id="sundes"><a href="https://sundaydesert.com/" target="_blank" rel="noopener noreferrer">♡</a></div>
       </div>
     );
   }
