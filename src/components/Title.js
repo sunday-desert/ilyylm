@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Title extends Component {
   render() {
     return (
-      <h1 style={this.props.style}><a href="http://iloveyouandyoulove.me/">ILYYL.M</a></h1>
+      <h1 style={this.props.style}><a href="https://sunday-desert.github.io/">ILYYL.M</a></h1>
     );
   }
 }
