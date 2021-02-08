@@ -2,7 +2,7 @@
   "name": "ilyylm",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://iloveyouandyoulove.me/",
+  "homepage" : "https://sunday-desert.github.io/ilyylm",
   "dependencies": {
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
