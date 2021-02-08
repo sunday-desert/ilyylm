@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "4775e74c11dae4082b22",
+    "revision": "cb4fae4647381c5512d5",
     "url": "/ilyylm/static/css/main.4cd8740e.chunk.css"
   },
   {
-    "revision": "4775e74c11dae4082b22",
-    "url": "/ilyylm/static/js/main.4775e74c.chunk.js"
+    "revision": "cb4fae4647381c5512d5",
+    "url": "/ilyylm/static/js/main.cb4fae46.chunk.js"
   },
   {
     "revision": "3a44155c7332b706de66",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/ilyylm/static/media/Comic-Sans-MS.19a8e4fe.ttf"
   },
   {
-    "revision": "050799c2b032975dbdfecf5fa7c5076b",
+    "revision": "e6649da025d0397b7cb675a38a1419b4",
     "url": "/ilyylm/index.html"
   }
 ];
