@@ -45,7 +45,7 @@ class Check extends Component {
               className="msg"
               onClick={this.copyLink}
               readOnly={true}
-              value={`sunday-desert.github.io/#/luv/${flavors.get(this.state.sel)[1]}`}
+              value={`sunday-desert.github.io/ilyylm/#/luv/${flavors.get(this.state.sel)[1]}`}
             /></p>
             <p><Link to="/pick">-- now send one to your other boo</Link></p>
           </article>
